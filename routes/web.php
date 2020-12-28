@@ -6,7 +6,7 @@ use App\Http\Controllers\HomeController;
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 //Route::get("/listbus","Bus@listbus");
@@ -14,5 +14,8 @@ Route::get('/', function () {
 Route::get("/listbus",function(){
     return view("bus");
 });
+Route::get("/logins",function(){
+    return view("login");
+});
 
-Route::get("/route-name",[HomeController::class,"method_name"]);
+//Route::get("/route-name",[HomeController::class,"method_name"]);
