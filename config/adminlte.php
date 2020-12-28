@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
+    'logo' => '<b>Admin</b>RND',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -244,6 +244,11 @@ return [
         ['header' => 'account_settings'],
         [
             'text' => 'profile',
+            'url'  => 'admin/settings',
+            'icon' => 'fas fa-fw fa-user',
+        ],
+        [
+            'text' => 'profile2',
             'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-user',
         ],
