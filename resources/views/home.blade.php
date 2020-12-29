@@ -8,6 +8,7 @@
 
 @section('content')
     <p>Welcome to this beautiful admin panel.</p>
+    <div id="app"></div>
 @stop
 
 @section('css')
@@ -16,4 +17,5 @@
 
 @section('js')
     <script> console.log('Hi!'); </script>
+    <script type="text/javascript" src="{{ asset('js/app.js') }}" ></script>
 @stop

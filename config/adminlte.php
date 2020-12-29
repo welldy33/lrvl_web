@@ -248,8 +248,13 @@ return [
             'icon' => 'fas fa-fw fa-user',
         ],
         [
-            'text' => 'profile2',
-            'url'  => 'admin/settings',
+            'text' => 'vue home',
+            'url'  => 'home',
+            'icon' => 'fas fa-fw fa-user',
+        ],
+        [
+            'text' => 'vue About',
+            'url'  => 'about',
             'icon' => 'fas fa-fw fa-user',
         ],
         [
